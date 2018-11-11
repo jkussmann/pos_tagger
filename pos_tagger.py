@@ -150,7 +150,9 @@ def get_input():
 	verbose_flag = False
 
 	#Start the Stanford CoreNLP server
-	proc1 = Popen([executable, 'core_nlp.py'], cwd='c:\stanford\corenlp-full-2017-06-09', creationflags=CREATE_NEW_CONSOLE)
+	# The core_nlp.py file should be in the c:\stanford-corenlp-full-2018-02-27 folder
+	# this line can be removed if you wish to start the core nlp server separately
+	proc1 = Popen([executable, 'core_nlp.py'], cwd='c:\stanford-corenlp-full-2018-02-27', creationflags=CREATE_NEW_CONSOLE)
 
 	try:
 		while (line != 'end'):

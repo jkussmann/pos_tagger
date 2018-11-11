@@ -6,8 +6,8 @@ taggers to assign part of speech tags to sentences. A sentence is entered in
 the command line and is tagged by each tagger. The results are then combined
 into a single tagged sentence.
 
-This code requires NLTK to be installed (see https://www.nltk.org/). Also 
-required is the Stanford Core NLP (https://stanfordnlp.github.io/CoreNLP/). 
-The core NLP server can either be started separately prior to running the tagger
-or can be started from the tagger. The final requirement is Spacy 
-(see https://spacy.io/). 
+This code has the following dependencies: 
+  NLTK to be installed (see https://www.nltk.org/)
+  The Stanford Core NLP (https://stanfordnlp.github.io/CoreNLP/)
+  The Java JRE
+  Spacy (see https://spacy.io/). 
